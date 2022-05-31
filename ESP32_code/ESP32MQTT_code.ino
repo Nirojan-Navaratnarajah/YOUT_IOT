@@ -27,8 +27,8 @@ int distance; // variable for the distance measurement
 int Buzzer = 13;
 
 // Replace the next variables with your SSID/Password combination
-const char* ssid = "Nirojan98"; // mobile hotspot
-const char* password = "nirojan98";
+const char* ssid = "YOUR SSID"; // mobile hotspot
+const char* password = "PASSWORD";
 
 // Add your MQTT Broker IP address, example:
 const char* mqtt_server = "192.168.80.1";   //--- IP address of Raspbery pi
