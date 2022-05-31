@@ -1,0 +1,4 @@
+run : mosquitto_sub -t "esp32/buzzer"   //to see the state of buzzer.
+      run : mosquitto_sub -t "esp32/ultra"   //sense  object within 10cm range            
+      run : mosquitto_sub -t "#"                        //to subscribe to all the topics.
+      run : mosquitto_pub -t "esp32/output"  //to activate the buzzer.
